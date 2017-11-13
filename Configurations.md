@@ -26,6 +26,7 @@ Use this option to prevent a huge array from being vertically formatted.
 
 #### `0` (default):
 
+<!-- rustfmt = true; array_horizontal_layout_threshold = 0; -->
 ```rust
 // Each element will be placed on its own line.
 let a = vec![
